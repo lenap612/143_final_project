@@ -18,14 +18,14 @@ df2 = df_count.groupby([('Years'), ('Seasons')])['count'].sum().unstack(level=1)
 ax = df2.plot.bar(color=c)
 plt.legend(['Winter', 'Spring', 'Summer', 'Fall'], loc='upper right',bbox_to_anchor=(1.3, 1))
 ax.set_ylabel('Crime Cases')
-plt.title('Crime cases of each season from 2016 to 2021')
+plt.title('Crime cases of each season from 2010 to 2021')
 plt.show()
 
 # total crime cases for each seasons from 2016 to 2020
 df3 = df_count.groupby('Seasons')['count'].sum()
 df3.index = ['Winter', 'Spring', 'Summer', 'Fall']
 ax2 = df3.plot.bar(color=c)
-plt.title('Total crime cases of each season from 2016 to 2021')
+plt.title('Total crime cases of each season from 2010 to 2021')
 plt.show()
 
 years = list(range(2010, 2022))
