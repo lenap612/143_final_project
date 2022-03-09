@@ -13,11 +13,8 @@ Analysing and Geographic Visualization of LA Crime Data.
 LA Crime Data Analysis
 └───data/
 └───img/
-└───
-└───
-└───
-└───
-└───
+└───seasons.py
+...
 ```
 # How to run this project
 1. Create data and img folder. Download the data.
