@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd 
 
-path = 'Crime_Data_from_2010_to_2019.csv'
+path = '/data/Crime_Data_from_2010_to_2019.csv'
 s = ['Winter', 'Spring', 'Summer', 'Fall']
 c = ['lightskyblue','lightgreen','tomato','gold']
 
